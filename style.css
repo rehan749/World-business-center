@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Varela+Round&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+}
+.iconss {
+    position: fixed;
+    left: 15px;
+    bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    z-index: 100;
+  }
+  img .icimg {
+    width: 51px;
+    display: block;
+    margin-top: 16px;
+    
+  }
+  .iconss img{
+    /* margin-top: 10px; */
+  }
+ 
+h1{
+    font-weight: 700;
+    margin: 20px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+section{
+    padding: 10px 0px;
+}
+.navbar{
+    background-color: #ffffff;
+}
+.navbar .navbar-nav .nav-item .nav-link
+{
+    color: #000000;
+    text-decoration: none;
+    font: 20px;
+    margin: 20px 10px;
+    padding: 8px 10px;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+}
+.navbar .navbar-nav .nav-item .nav-link:before
+{
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    left: 0px;
+    bottom: 0px;
+    content: '';
+    background:#636464;
+    opacity: 0.3;
+    transition: all 0.3s;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover:before
+{
+    height: 100%;
+}
+.navbar-toggler {
+    text-decoration: none;
+    color: white;
+    background: rgb(255 255 255);
+}
+.banner-section{
+  position: relative;
+}
+.banner-section .enquery-form{
+    position: absolute;
+  bottom: 10px;
+  right: 0px;
+  background: rgba(255, 255, 255, 0.87);
+  box-shadow: 0 -5px 5px -5px #333;
+  padding: 15px 20px 12px;
+  z-index: 40;
+}
+.enquery-form input{
+    padding: 5px 20px;
+    margin: 5px 0px;
+    border: 1px solid black;
+    outline: none;
+}
+.enquery-form .form-control{
+    border-radius: 0px;
+ }
+.about .col-md-12 p{
+    font-size: 19px;
+    text-align: justify;
+}
+.overview-section {
+    background-color: #000000;
+    color: #fff;
+}
+.overview-section .col-md-6 ul li{
+    font-size: 16px;
+    line-height: 38px;
+}
+.offer-section .offer-box .img-box{
+    border: 2px solid gray;
+} .offer-box h3{
+    text-align: center;
+    background-color: cornflowerblue;
+    font-weight: 400;
+    font-size: 21px;
+    padding: 5px 0px;
+    color: #ebebeb;
+}
+.floor-plan .col-md-4 .box{
+    border: 2px solid black;
+    padding: 5px;
+    box-shadow: 1px 2px 3px #2e2e2e;
+  margin: 7px 0px;
+  padding-bottom:0px ;
+  border-radius: 10px;
+}
+.floor-plan .col-md-4 h5{
+    text-align: center;
+    font-style: italic;
+    display: block;
+    background-color: #c23333;
+    color: #fff;
+}
+.Amenities .text {
+    position: relative;
+    /* margin: 14px; */
+    z-index: 2;
+    top: -27px;
+    /* left: 30px; */
+    background: orangered;
+    color: white;
+    padding: 0px 10px;
+}
+
+.Amenities .col-md-3 {
+    /* margin-bottom: 5px; */
+        background: #fff;
+        border-top-right-radius: 10px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* align-items: center; */
+        position: relative;
+        box-shadow: 0 14px 26px rgba(0,0,0,0.04);
+        transition: all 0.3s ease-out;
+        text-decoration: none;
+}
+
+/* .Amenities .col-md-3:hover {
+    transform: translateY(-5px) scale(1.005) translateZ(0);
+    box-shadow: 0 24px 36px rgba(0,0,0,0.11),
+      0 24px 46px var(--box-shadow-color);
+  }
+  
+  .Amenities .col-md-3:hover .overlay {
+    transform: scale(4) translateZ(0);
+  } */
+
+.gallary .col-md-4 {
+    margin-bottom: 15px;
+    
+}
+
+.gallary .col-md-4 img {
+    border-radius: 10px;
+    transition: all 0.2s ease-out;
+    border: 2px solid rgb(50, 50, 50);
+}
+
+.gallary .col-md-4 img:hover{
+    transform: scale(0.9);
+}
+.loction .col-md-6 .location-line li{
+    line-height: 50px;
+    word-spacing: 1px;
+   
+    font-size: 19px;
+}
+.contact{
+    background-color: rgb(185 185 185 / 13%);
+    padding-top: 10px;
+}
+.contact .info{
+    display: flex;
+    text-align: center;
+    align-items: baseline;
+    margin: 10px 0px;
+}
+.contact .info .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+    /* padding: 10px 23px; */
+    height: 50px;
+    width: 50px;
+    background: brown;
+    color: white;
+    border-radius: 50%;
+}
+.contact .info .text h4{
+    font-weight: 700;
+}
+.footer {
+    background-color: #1d1d1d;
+    color: #fff;
+    
+}
+.footer i {
+    font-size: 20px;
+}
+
+.footer i a {
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    margin-left: 10px;
+    transition: all 0.4s ease-out;
+}
+
+.footer p{
+    font-size: 18px;
+    padding-left: 5px;
+}
+
+
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 46px;
+    right: 7px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #c23333;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 18px;
+    height: 50px;
+    width: 50px;
+}
+
+.sticky {
+    
+    /* background-color: rgb(240 241 244 / 95%) !important; */
+    background-color: #000000;
+    /* background: linear-gradient(1deg, #4103ff, #cbb8b8); */
+    /* background: linear-gradient(1deg, #ffffff, #ebe8e8); */
+    /* position: fixed; */
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    top: 0px;
+    width: 100%;
+    padding: 10px;
+    z-index: 5;
+    transition: all 0.5s ease-out;
+    
+   }
+
+   @media only screen and (max-width: 600px) {
+   h1{
+    font-size: 21px;
+   }
+.navbar .navbar-brand{
+ padding: 0px !important;
+}
+.about .col-md-12 p{
+    font-size: 16px;
+    /* text-align: justify; */
+}
+.overview-section .col-md-6 ul li{
+    font-size: 15px;
+    line-height: 30px;
+}
+.loction .col-md-6 .location-line li{
+    line-height: 30px;
+    word-spacing: 1px;
+   margin-top: 10px;
+    font-size: 17px;
+}
+.banner-section .banner-img img{
+   
+ height: 40vh;
+ background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
+}
+.banner-section .enquery-form{
+    position: relative;
+ bottom: 0px;
+ right: 0px;
+ background-color: #e9ecef;
+}
+.enquery-form .form-control{
+   border-radius: 0px;
+}
+}
+@media  (min-width: 1000px) and (max-width: 1150px){
+    .navbar-brand {
+       padding: 0px !important;
+    }
+    .navbar .navbar-nav .nav-item .nav-link {
+        color: #000000;
+        text-decoration: none;
+       text-align: center;
+       font-size: 15px;
+        padding: 0px !important;
+        z-index: 0;
+        cursor: pointer;
+    }
+    .overview-section .col-md-6 ul li {
+        font-size: 15px;
+        line-height: 26px;
+    }
+}
